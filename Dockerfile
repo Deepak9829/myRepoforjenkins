@@ -1,4 +1,4 @@
-FROM vimal13/apache-webserver-php
+FROM centos:latest
 
 LABEL name="myapacheweb"
 LABEL version="0.1"
