@@ -5,14 +5,14 @@ pipeline {
 
     stage('docker build') {
       steps {
-        sh 'sudo docker build . -t myfirsttestdocker'
+        sh 'sudo docker build . -t newimage'
         echo 'your build is success this time'
       }
     }
     
      stage('docker run ') {
       steps {
-        sh 'sudo docker run --name myos  myfirsttestdocker'
+        sh 'sudo docker run --name myos  newimage'
         echo 'your build is success this time'
       }
     }
