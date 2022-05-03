@@ -12,7 +12,7 @@ pipeline {
     
      stage('docker run ') {
       steps {
-        sh 'sudo docker run --name mynewos  newimage'
+        sh 'sudo docker run --name mynewos1  newimage'
         echo 'your build is success this time'
       }
     }
