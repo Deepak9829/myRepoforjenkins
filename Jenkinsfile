@@ -10,6 +10,12 @@ pipeline {
       }
     }
     
+     stage('code run') {
+      steps {
+        sh 'sudo docker run --name myos  myimagetestdocker'
+        echo 'your build is success this time'
+      }
+    }
    
   }
 }
