@@ -6,7 +6,7 @@ pipeline {
     stage('code run') {
       steps {
         sh 'sudo docker build . -t myimagetestdocker'
-        echo 'your build is success'
+        echo 'your build is success this time'
       }
     }
     
