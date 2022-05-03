@@ -7,7 +7,7 @@ pipeline {
       steps {
         sh 'rm -rvf mycode'
         sh 'mkdir mycode'
-        sh 'git clone https://github.com/amol1567/kloudlearn-jenkins.git mycode'
+        sh 'git clone https://github.com/Deepak9829/myRepoforjenkins.git'
         echo 'Clonning...'
       }
     }
