@@ -6,5 +6,5 @@ LABEL description="A simple HTTP service."
 
 RUN  echo "Hey Guys how are you" >> /var/www/html/test.html
 
-CMD echo "Hey Boys how are you"
+CMD echo "Hey Boys how are hello you"
 
