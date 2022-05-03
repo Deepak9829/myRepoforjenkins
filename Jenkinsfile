@@ -3,14 +3,14 @@ pipeline {
   
   stages{
 
-    stage('code run') {
+    stage('docker build') {
       steps {
         sh 'sudo docker build . -t myfirsttestdocker'
         echo 'your build is success this time'
       }
     }
     
-     stage('code run') {
+     stage('docker run ') {
       steps {
         sh 'sudo docker run --name myos  myfirsttestdocker'
         echo 'your build is success this time'
